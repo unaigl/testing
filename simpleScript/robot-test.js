@@ -20,6 +20,7 @@ describe("Field test for killer robot", function () {
       robot.fireCannon();
       assert.isAtLeast(robot.ammo, 0);
     }
+    _;
   });
 });
 
